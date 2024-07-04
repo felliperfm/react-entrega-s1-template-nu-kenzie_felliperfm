@@ -1,0 +1,16 @@
+.summaryBox {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.emptyWarning {
+    margin-top: 1.5rem;
+}
+
+.entriesList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

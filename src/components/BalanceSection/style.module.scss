@@ -1,0 +1,15 @@
+.balanceBox {
+    margin-top: 1rem;
+    border: 1px solid var(--color-gray-2);
+    padding: 2rem 1.5rem;
+    min-width: 300px;
+
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
