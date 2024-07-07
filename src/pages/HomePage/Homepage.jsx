@@ -18,7 +18,7 @@ export const Homepage = () => {
 
     return (
         <TemplatePage>
-            <div className={`${styles.contentBox} container`}>
+            <div className={styles.contentBox}>
                 <div>
                     <EntrySection addEntry={addEntry} />
                     <BalanceSection entries={entries} />
